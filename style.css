@@ -1,4 +1,4 @@
-
+@import url('Background.css');
 
 :root {
   --primary-color: rgb(255, 92, 92);
@@ -27,6 +27,8 @@ html {
 
 body {
   margin: 0;
+  background-color: var(--backgroundColor);
+  background-image: var(--background-image);
 }
 
 section {
