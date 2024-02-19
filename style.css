@@ -52,6 +52,7 @@ h1 {
 h2 {
   font-size: 32px;
   font-weight: normal;
+  color: var(--on-background-alt);
 }
 
 /* Navigation */
@@ -62,6 +63,7 @@ nav {
   letter-spacing: 3px;
   padding: 25px;
   width: 100vw;
+  font-family: oswald,sans-serif;
   background: rgb(255 255 255 / 50%);
 }
 
@@ -171,14 +173,14 @@ p {
 }
 
 /* Contact Section */
-.fab {
+.fa-brands {
   font-size: 100px;
   margin-right: 50px;
   cursor: pointer;
   color: var(--primary-color);
 }
 
-.fab:hover {
+.fa-brands:hover {
   color: var(--on-background);
 }
 
@@ -253,7 +255,7 @@ input:checked + .slider::before {
   border-radius: 50%;
 }
 
-.fas {
+.fa-regular {
   font-size: 30px;
   margin-right: 5px;
 }
